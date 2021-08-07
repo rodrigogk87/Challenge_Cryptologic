@@ -12,6 +12,7 @@ async function getTransacrionDataFromDb(){
     }
     catch(e){
         console.log("\x1b[31m",'>>>>>>>>>> error in getTransacrionDataFromDb: \n',e);
+        mongoose.connection.close();
     }
 }
 

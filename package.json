@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "program": "node .\\web3instance.js && node .\\index.js" 
+    "program": "node .\\getAndSaveTransaction.js && node .\\index.js"
   },
   "author": "",
   "license": "ISC",
