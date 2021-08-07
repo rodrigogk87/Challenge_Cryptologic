@@ -1,7 +1,7 @@
 require('dotenv').config()
 
 var Web3 = require("web3");
-var provider = process.env.POLYGON_ENDOINT;
+var provider = process.env.POLYGON_ENDPOINT;
 var web3Provider = new Web3.providers.HttpProvider(provider);
 var web3 = new Web3(web3Provider);
 
